@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.nakama.trakingpercetakan.RegisterActivity"
+    tools:showIn="@layout/activity_register">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_orange_dark"
+            android:textColor="#FFFFFF"
+            android:text="REGISTER" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="vertical"
+            android:background="@drawable/border_color_blue"
+            android:padding="0dp">
+
+            <EditText
+                android:id="@+id/editText"
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:text="Nama" />
+
+            <EditText
+                android:id="@+id/editTexwtt"
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:text="Email" />
+
+            <EditText
+                android:id="@+id/editTexwt4"
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:text="Nomor Telepon" />
+            <EditText
+                android:id="@+id/editTexwt"
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:text="Password" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:background="@android:color/holo_orange_dark"
+            android:textColor="#FFFFFF"
+            android:text="Lanjut" />
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
